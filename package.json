@@ -2,7 +2,7 @@
   "name": "poker-practice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.johnmeyerwebdev.com/poker-practice/",
+  "homepage": "http://www.johnmeyerwebdev.com/poker-practice/",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "react": "^16.8.6",
