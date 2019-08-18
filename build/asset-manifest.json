@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/poker-practice/static/css/main.da8bddcb.chunk.css",
+    "main.js": "/poker-practice/static/js/main.8ad11fef.chunk.js",
+    "main.js.map": "/poker-practice/static/js/main.8ad11fef.chunk.js.map",
+    "runtime~main.js": "/poker-practice/static/js/runtime~main.86569ac0.js",
+    "runtime~main.js.map": "/poker-practice/static/js/runtime~main.86569ac0.js.map",
+    "static/js/2.51ae4c65.chunk.js": "/poker-practice/static/js/2.51ae4c65.chunk.js",
+    "static/js/2.51ae4c65.chunk.js.map": "/poker-practice/static/js/2.51ae4c65.chunk.js.map",
+    "index.html": "/poker-practice/index.html",
+    "precache-manifest.277699017111c7a255f92286c80d0d1e.js": "/poker-practice/precache-manifest.277699017111c7a255f92286c80d0d1e.js",
+    "service-worker.js": "/poker-practice/service-worker.js",
+    "static/css/main.da8bddcb.chunk.css.map": "/poker-practice/static/css/main.da8bddcb.chunk.css.map"
+  }
+}
