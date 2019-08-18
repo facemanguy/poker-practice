@@ -1,6 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
+import Poker from './Components/Poker';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <a href="https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1">The Api I will be using</a>
         <a href="https://github.com/crobertsbmw/deckofcards">Github</a>
       </header>
+      <Poker />
     </div>
   );
 }
