@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21ae5d65cf782a96dff4c90e110107df",
+    "revision": "e52d87574dcb6591f71b1e48979d72bd",
     "url": "/poker-practice/index.html"
   },
   {
-    "revision": "5f05d133d06bee148902",
+    "revision": "b203b3d21a759e8d0b41",
     "url": "/poker-practice/static/css/main.da8bddcb.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/poker-practice/static/js/2.51ae4c65.chunk.js"
   },
   {
-    "revision": "5f05d133d06bee148902",
-    "url": "/poker-practice/static/js/main.8ad11fef.chunk.js"
+    "revision": "b203b3d21a759e8d0b41",
+    "url": "/poker-practice/static/js/main.4a64e05c.chunk.js"
   },
   {
     "revision": "0fdaebee0f067ce62e5b",
