@@ -24,12 +24,12 @@ export default class Poker extends React.Component {
          const { playerCards } = this.state;
          let items =[];
          for (const [index, value] of playerCards.entries()) {
-            items.push(<h1 key={index}>{value.code}<img src={value.image} alt={value.code}></img></h1>)
+            items.push(<div><p key={index}>{value.code}</p><h1>{value.value} {value.suit}</h1><img src={value.image} alt={value.code}></img></div>)
         }
          return(
              <div>
                  {items}
-                <p> test </p>
+                
              </div>
          );
     }
