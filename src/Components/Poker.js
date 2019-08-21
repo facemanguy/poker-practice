@@ -13,7 +13,7 @@ export default class Poker extends React.Component {
         Axios.get(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, {})
         .then(Response => {
             console.log(Response.data);
-            this.setState({ playerCards: Response.data.cards.code });
+            this.setState({ playerCards: Response.data.cards[0].code });
         })
         .catch(error => {
             console.log(error);
