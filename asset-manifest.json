@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/poker-practice/static/css/main.da8bddcb.chunk.css",
-    "main.js": "/poker-practice/static/js/main.1661f10c.chunk.js",
-    "main.js.map": "/poker-practice/static/js/main.1661f10c.chunk.js.map",
+    "main.css": "/poker-practice/static/css/main.574740af.chunk.css",
+    "main.js": "/poker-practice/static/js/main.eb76fa6f.chunk.js",
+    "main.js.map": "/poker-practice/static/js/main.eb76fa6f.chunk.js.map",
     "runtime~main.js": "/poker-practice/static/js/runtime~main.86569ac0.js",
     "runtime~main.js.map": "/poker-practice/static/js/runtime~main.86569ac0.js.map",
     "static/js/2.bb71ae78.chunk.js": "/poker-practice/static/js/2.bb71ae78.chunk.js",
     "static/js/2.bb71ae78.chunk.js.map": "/poker-practice/static/js/2.bb71ae78.chunk.js.map",
     "index.html": "/poker-practice/index.html",
-    "precache-manifest.5ae17127847c1b2a9ce983a186e8a22c.js": "/poker-practice/precache-manifest.5ae17127847c1b2a9ce983a186e8a22c.js",
+    "precache-manifest.807d69c8d7eb8be1e09edc853993fba1.js": "/poker-practice/precache-manifest.807d69c8d7eb8be1e09edc853993fba1.js",
     "service-worker.js": "/poker-practice/service-worker.js",
-    "static/css/main.da8bddcb.chunk.css.map": "/poker-practice/static/css/main.da8bddcb.chunk.css.map"
+    "static/css/main.574740af.chunk.css.map": "/poker-practice/static/css/main.574740af.chunk.css.map"
   }
 }
