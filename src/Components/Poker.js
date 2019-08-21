@@ -13,7 +13,7 @@ export default class Poker extends React.Component {
         Axios.get(`https://deckofcardsapi.com/api/deck/new/draw/?count=2`, {})
         .then(Response => {
             console.log(Response.data);
-            this.setState({ playerCards: Response.data.cards[0].code });
+            this.setState({ playerCards: Response.data.cards});
         })
         .catch(error => {
             console.log(error);
@@ -22,9 +22,14 @@ export default class Poker extends React.Component {
 
     render() {
          const { playerCards } = this.state;
+         let items =[];
+         for (const [index, value] of playerCards.entries()) {
+            items.push(<h1 key={index}>{value.code}<img src={value.image} alt={value.code}></img></h1>)
+        }
          return(
              <div>
-                <p>{playerCards} test </p>
+                 {items}
+                <p> test </p>
              </div>
          );
     }
