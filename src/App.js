@@ -13,6 +13,7 @@ function App() {
         <a href="https://github.com/crobertsbmw/deckofcards">Github</a>
       </header>
       <Poker />
+      <p>my app test</p>
     </div>
   );
 }
