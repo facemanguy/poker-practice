@@ -15,3 +15,9 @@
 .App-link {
   color: #61dafb;
 }
+
+.Game-board {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-rows: auto;
+}

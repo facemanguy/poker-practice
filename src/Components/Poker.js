@@ -14,10 +14,23 @@ export default class Poker extends React.Component {
     }
 
     async drawCard(){
-        Axios.get(`https://deckofcardsapi.com/api/deck/${currentDeck}/draw/?count=1`, {})
+        Axios.get(`https://deckofcardsapi.com/api/deck/${currentDeck}/draw/?count=3`, {})
         .then(Response => {
             console.log(Response.data);
             this.setState({ communityCards: Response.data.cards});
+            const flopCall = (this.state.communityCards)
+            this.createFlop(flopCall);
+        })
+        .catch(error => {
+            console.log(error);
+        });
+    }
+
+    async createFlop(flopCall){
+        await
+        Axios.get(`https://deckofcardsapi.com/api/deck/${currentDeck}/pile/flop/add/${flopCall}`, {})
+        .then(Response =>{
+            console.log(Response.data.piles)    
         })
         .catch(error => {
             console.log(error);
@@ -51,7 +64,7 @@ export default class Poker extends React.Component {
         }
          return(
              <div>
-                 <div>{items}</div>
+                 <div className="Game-board">{items}</div>
                  <button onClick={this.drawCard}>Draw</button>
                 <div>{flop}</div>
              </div>
