@@ -10,6 +10,7 @@ export default class Poker extends React.Component {
             playerCards: [],
             communityCards: [],
         }
+        this.drawCard = this.drawCard.bind(this);
     }
 
     async drawCard(){
@@ -42,7 +43,8 @@ export default class Poker extends React.Component {
          let items =[];
          let flop =[];
          for (const [index, amount] of communityCards.entries()) {
-            flop.push(<div><p key={index}>{amount.code}</p></div>)
+            flop.push(<div><p key={index}>{amount.code}</p><img src={amount.image} alt={amount.code}></img></div>)
+            console.log('floptest');
          }
          for (const [index, value] of playerCards.entries()) {
             items.push(<div><p key={index}>{value.code}</p><h1>{value.value} {value.suit}</h1><img src={value.image} alt={value.code}></img></div>)
