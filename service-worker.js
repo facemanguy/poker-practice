@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/poker-practice/precache-manifest.cf2ddae0ddb82d036ef21e5a7894575d.js"
+  "/poker-practice/precache-manifest.e37a50ea407252a47448f6b8552a0f6f.js"
 );
 
 self.addEventListener('message', (event) => {
