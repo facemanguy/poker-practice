@@ -9,8 +9,14 @@ export default class Poker extends React.Component {
         this.state = {
             playerCards: [],
             communityCards: [],
+            
         }
         this.drawCard = this.drawCard.bind(this);
+    }
+
+    calc(code1, code2, remaining){
+        console.log(code1, code2);
+        console.log(remaining)
     }
 
     async drawCard(){
@@ -18,19 +24,6 @@ export default class Poker extends React.Component {
         .then(Response => {
             console.log(Response.data);
             this.setState({ communityCards: Response.data.cards});
-            const flopCall = (this.state.communityCards)
-            this.createFlop(flopCall);
-        })
-        .catch(error => {
-            console.log(error);
-        });
-    }
-
-    async createFlop(flopCall){
-        await
-        Axios.get(`https://deckofcardsapi.com/api/deck/${currentDeck}/pile/flop/add/${flopCall}`, {})
-        .then(Response =>{
-            console.log(Response.data.piles)    
         })
         .catch(error => {
             console.log(error);
@@ -44,6 +37,14 @@ export default class Poker extends React.Component {
             this.setState({ playerCards: Response.data.cards});
             currentDeck = (Response.data.deck_id)
             console.log(currentDeck)
+            let remaining = Response.data.remaining;
+            let card1 = Response.data.cards[0];
+            let card2 = Response.data.cards[1];
+            let code1 = card1.code;
+            let code2 = card2.code;
+            console.log(code1, code2);
+
+            this.calc(code1, code2, remaining)
         })
         .catch(error => {
             console.log(error);

@@ -1,7 +1,7 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import Poker from './Components/Poker';
+import CreateDeck from './Components/CreateDeck';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <a href="https://github.com/crobertsbmw/deckofcards">Github</a>
       </header>
       <section>
-      <Poker />
+      <CreateDeck />
       </section>
       <p>my app test</p>
     </div>

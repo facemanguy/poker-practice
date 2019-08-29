@@ -1,9 +1,15 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .App {
-  text-align: center;
+  box-sizing: border-box;
   background-color: green;
 }
 
 .App-header {
+  text-align: center;
   background-color: #ccc;
   min-height: 10vh;
   min-width: 100vw;
@@ -12,12 +18,12 @@
   color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.card-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
 }
 
-.Game-board {
-  display: grid;
-  grid-auto-columns: max-content;
-  grid-auto-rows: auto;
+.card-display img {
+  max-width: 90%;
 }
