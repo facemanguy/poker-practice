@@ -12,10 +12,7 @@ function App() {
         <a href="https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1">The Api I will be using</a>
         <a href="https://github.com/crobertsbmw/deckofcards">Github</a>
       </header>
-      <section>
       <CreateDeck />
-      </section>
-      <p>my app test</p>
     </div>
   );
 }
