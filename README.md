@@ -1,4 +1,5 @@
-#A Poker Practice App
+# A Poker Practice App
+## An app by John Meyer
 
 This project is a react web app that helps you practice identifying your poker odds.
 This is also my Seattle University WATS Course final for 2019.
